@@ -1,0 +1,12 @@
+Source: fuse-google-drive
+Section: web
+Priority: optional
+Maintainer: Viktar Vauchkevich <victorenator@gmail.com>
+Build-Depends: cdbs, cmake, pkg-config, libfuse-dev, libcurl4-gnutls-dev | libcurl-dev, libjson0-dev, libxml2-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/jcline/fuse-google-drive
+
+Package: fuse-google-drive
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Mount your Google Drive.

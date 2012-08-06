@@ -1,0 +1,11 @@
+Upstream-Name: fuse-google-drive
+Upstream-Maintainer: James Cline
+Upstream-Source: https://github.com/jcline/fuse-google-drive
+
+Files: *
+Copyright: Copyright 2012, James Cline
+License: GPL2
+
+Files: debian/*
+Copyright: Copyright 2012, Viktar Vauchekvich <victorenator@gmail.com>
+License: GPL2
